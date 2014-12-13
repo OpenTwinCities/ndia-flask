@@ -21,13 +21,27 @@ pip --version
 
 [Flask installation with virtualenv notes](http://flask.pocoo.org/docs/0.10/installation/#virtualenv)
 
-[Virtualenvwrapper](https://virtualenvwrapper.readthedocs.org/en/latest/) makes managing all of those environments just a little bit easier.
-
 ### Install
 
 ```
 pip install virtualenv
 pip install virtualenvwrapper
+```
+
+# Get Northside Digital Assets System
+
+```
+git clone https://github.com/OpenTwinCities/ndia-flask.git
+cd ndia-flask
+virtualenv env
+```
+
+# Run Northside Digital Assets System
+
+```
+cd ndia-flask
+source env/bin/activate
+pip install -r requirements.txt
 ```
 
 
