@@ -1,7 +1,9 @@
-ndia-flask
-==========
+ndia-flask - Discontinued
+=========================
 
-Northside Digital Innovation Alliance project prototype
+Northside Digital Innovation Alliance project prototype in Flask
+
+This has been discontinued in favor of [ndia-django](ttps://github.com/OpenTwinCities/ndia-django/)
 
 #Dependencies
 
