@@ -36,13 +36,19 @@ cd ndia-flask
 virtualenv env
 ```
 
-# Run Northside Digital Assets System
+# Update and Run Northside Digital Assets System
 
 ```
 cd ndia-flask
+git pull
 source env/bin/activate
 pip install -r requirements.txt
+./run.py
 ```
+
+# Set It
+
+Visit <http://localhost:5000>
 
 
 #Resources
