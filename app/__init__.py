@@ -1,4 +1,7 @@
 from flask import Flask
+import os
+
+app = Flask(__name__)
 
 if not app.debug and os.environ.get('HEROKU') is None:
     import logging
@@ -17,5 +20,4 @@ if os.environ.get('HEROKU') is not None:
     app.logger.setLevel(logging.INFO)
     app.logger.info('microblog startup')
 
-app = Flask(__name__)
 from app import views
